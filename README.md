@@ -35,4 +35,4 @@ reload proxy service
 `npm run start`
 
 ## last
-do not forget to change `<noscript>` content to `window.location.href='/vm/'`
+do not forget to change `<noscript>` content to `<meta http-equiv="refresh" content="0; URL=/vm/">`
