@@ -19,7 +19,9 @@ change your chrome executable location in index.js
 
 ## Step 4
 use nginx (proxy server) to rewrite request
+
 i use sub folder `/vm` to rewrite to chrome-vm service which bind on 8000 port
+
 /vm/ -> /, /vm/a.html -> /a.html
 ```
 location /vm {
